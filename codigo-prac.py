@@ -2,9 +2,10 @@ import random
 
 def adivina_el_numero():
     numero_secreto = random.randint(0, 50)
-    intentos = 5
+    intentos = 10 #Add more chances
     
-    print("Adivina el número entre 0 y 50. Tienes 5 intentos.")
+    ##Modify text in order to
+    print("Adivina el número entre 0 y 50. Tienes 10 intentos.")
     
     for i in range(intentos):
         try:
